@@ -1,0 +1,66 @@
+.wd-search-bar {
+ background-color: darkgray;
+ color: white;
+ border-right: 12px;
+ border-radius: 10px;
+ width: 80%;
+ border-style: solid;
+}
+.wd-border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+.wd-page {
+ background-color: black;
+}
+.wd-linkbox {
+  display: flex;
+  justify-content: space-between;
+}
+a:active {
+    color: rgb(29,161,242);
+    padding: 16px;
+    font-size: 15px;
+    text-decoration: none;
+}
+a:link {
+    color: rgb(110, 118, 125);
+    padding: 16px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.wd-trending {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-trending-title {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    padding-right: 10px;
+}
+.wd-author {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.wd-post {
+    color: white;
+}
+.wd-border-thin {
+   border-width: 4px; 
+   border-color: rgb(110, 118, 125);
+    border-style: solid;
+}
+.wd-container {
+    display: flex;
+}
+.wd-square {
+    width: 100px;
+    height: 100px;
+    padding-right: 16px;
+    position: relative;
+    float: right;
+
+}
