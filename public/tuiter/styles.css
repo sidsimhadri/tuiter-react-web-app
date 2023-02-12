@@ -1,0 +1,80 @@
+.wd-page {
+ background-color: black;
+}
+.wd-bookmarks {
+    padding-left: 16px;
+    top: 12px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wd-link {
+    font-size: 13px;
+    color: lightgray;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+}
+.wd-avatar {
+    padding-left: 16px;
+    top: 10px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.wd-user {
+    padding-left: 12px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.wd-tag {
+    color: lightgray;
+    font-size: 15px;
+    padding-left: 12px;
+}
+.wd-container {
+    display: flex;
+}
+.wd-content {
+    font-size: 15px;
+    color: white;
+    max-width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding: 12px;
+}
+.wd-big-pic {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+
+}
+.wd-border {
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.wd-title {
+    font-size: 15px;
+    color: white;
+
+}
+.wd-text {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wd-reactions {
+  display: flex;
+  justify-content: space-between;
+  color: lightgray;
+}
