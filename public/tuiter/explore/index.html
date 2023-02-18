@@ -1,72 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <title>Title</title>
-    <link href="index.css"
-         rel="stylesheet"/>
-    <link rel="stylesheet" href="https://kit.fontawesome.com/f0d916b820.css" crossorigin="anonymous">
+   <!-- <style>
+       p {
+           background-color: blue;
+           color: white;
+       }
+   </style> -->
+      <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
 </head>
-<body class="wd-page">
-    <div>
-    <input class="wd-search-bar" id="explore-bar"/>
-<a href="explore-settings.html">&#9881;</a>
-</div>
-    <br>
-<div class="wd-linkbox">
-<a href="url"> For you</a>
-<a href="url">Trending</a>
-<a href="url">COVID-19</a>
-<a href="url">News</a>
-<a href="url">Sports</a>
-<a href="url">Entertainment</a>
-</div>
-<div class="wd-border">
-<p class="wd-trending">Trending in Science</p>
-<h2 class="wd-post">Starship</h1>
-<p class="wd-trending">55.5k tweets</p>
-</div>
-<div class="wd-border">
-<p class="wd-trending">Trending in Sports</p>
-<h2 class="wd-post">Joe Rogan</h1>
-<p class="wd-trending">5218 tweets</p>
-</div>
-<div class="wd-border">
-<div class="wd-container">
-<p class="wd-author">The New York Times</p>
-<p class="wd-trending">  Trending<p>
-</div>
-<div class="wd-container">
-<h2 class="wd-post">CNN Cuomo Conundrum</h2>
-<img src="teslabot.jpg" class="wd-square"/>
-</div>
-<p class="wd-trending">5218 tweets</p>
-</div>
-<div class="wd-border">
-<div class="wd-container">
-<p class="wd-trending-title">COVID-19</p>
-<p class="wd-trending">Trending<p>
-</div>
-<div class="wd-container">
-<h2 class="wd-post">COVID-19 news and stuff</h2>
-<img src="teslabot.jpg" class="wd-square"/>
-</div>
-<p class="wd-trending">5218 tweets</p>
-</div>
-<div class="wd-border">
-<div class="wd-container">
-<p class="wd-author">Socks and Coffee</p>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+<div class="list-group">
 
-<p class="wd-trending">  Trending<p>
+  <li class="list-group-item">
+    <i class="fa fa-circle"></i>
+  </li>
+   <a href="../home.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-home"></i>
+       Home</a>
+   <a href="../explore/index.html" class="list-group-item list-group-item-action active">
+    <i class="fa fa-hashtag"></i>
+    Explore</a>
+   <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-bell"></i>
+       Notifications</a>
+   <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-envelope"></i>
+    Messages</a>
+   <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-bookmark"></i>
+    Bookmarks</a>
+       <a href="../navigation.html" class="list-group-item list-group-item-action">
+            <i class="fa fa-list"></i>
+    Lists</a>
+       <a href="../profile.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-user"></i>
+        Profile</a>
+       <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-circle-ellipsis"></i>></i>
+        more</a>
 </div>
-<div class="wd-container">
-<h2 class="wd-post">What is wrong with socks and coffee</h2>
-<img src="teslabot.jpg" class="wd-square"/>
+<button class="btn btn-primary rounded-pill w-100">
+   Tweet
+</button>
+    </div>
+    <div class="col-5">
+<div class="input-group">
+<input type="text" class="form-control rounded-pill" placeholder="Search Twitter">
+  <div class="input-group-append">
+<i class="fa fa-search"></i>
 </div>
+<i class="fa fa-cog"></i>
 </div>
-<div class="wd-border">
-<p class="wd-trending">Trending in trends</p>
-<h2 class="wd-post">Fun cool post</h1>
-<p class="wd-trending">5218 tweets</p>
+<ul class="nav nav-tabs">
+   <li class="nav-item">
+       <a class="nav-link active" href="#">For you</a>
+   </li>
+   <li class="nav-item">
+       <a class="nav-link" href="#">Trending</a>
+   </li>
+   <li class="nav-item">
+       <a class="nav-link" href="#">News</a>
+   </li>
+   <li class="nav-item">
+       <a class="nav-link" href="#">Sports</a>
+   </li>
+      <li class="nav-item">
+       <a class="nav-link" href="#">Entertainment</a>
+   </li>
+</ul>
+<div class="list-group">
+    <li class="list-group-item">
+        <img src="../images/spacship.jpeg" class="img-fluid justify-content-center" alt="Responsive image">
+    </li>
+</div>
+
+</div>
+
+    
+
+    <div class="col-4">
+<div class="list-group">
+
+  <li class="list-group-item">
+    Who to follow
+  </li>
+   <li class="list-group-item">
+
+    <span>
+<img src="../images/java.png" class="img-thumbnail float-left" alt="Responsive image">
+</span>
+    </li>
+   <a href="../explore/index.html" class="list-group-item list-group-item-action active">
+    <i class="fa fa-hashtag"></i>
+    Explore</a>
+   <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-bell"></i>
+       Notifications</a>
+   <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-envelope"></i>
+    Messages</a>
+   <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-bookmark"></i>
+    Bookmarks</a>
+       <a href="../navigation.html" class="list-group-item list-group-item-action">
+            <i class="fa fa-list"></i>
+    Lists</a>
+       <a href="../profile.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-user"></i>
+        Profile</a>
+       <a href="../navigation.html" class="list-group-item list-group-item-action">
+        <i class="fa fa-circle-ellipsis"></i>></i>
+        more</a>
+</div>
+    </div>
+  </div>
 </div>
 </body>
